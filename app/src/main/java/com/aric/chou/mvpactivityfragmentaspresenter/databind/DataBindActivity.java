@@ -21,7 +21,7 @@ import com.aric.chou.mvpactivityfragmentaspresenter.model.AbsModel;
 import com.aric.chou.mvpactivityfragmentaspresenter.presenter.activity.ActivityPresenter;
 import com.aric.chou.mvpactivityfragmentaspresenter.View.IViewDelegate;
 
-
+// if you want to know how to use data bind please refer to https://github.com/kymjs/TheMVP
 public abstract class DataBindActivity<T extends IViewDelegate> extends
         ActivityPresenter<T> {
     protected DataBinder binder;
