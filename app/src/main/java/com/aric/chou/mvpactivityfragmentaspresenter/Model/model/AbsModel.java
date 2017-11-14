@@ -1,4 +1,4 @@
-package com.aric.chou.mvpactivityfragmentaspresenter.Model.imodel;
+package com.aric.chou.mvpactivityfragmentaspresenter.Model.model;
 
 /**
  * com.aric.chou.mvpactivityfragmentaspresenter.Model.imodel

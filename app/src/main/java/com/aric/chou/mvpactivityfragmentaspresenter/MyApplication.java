@@ -1,4 +1,4 @@
-package com.aric.chou.mvpactivityfragmentaspresenter.Application;
+package com.aric.chou.mvpactivityfragmentaspresenter;
 
 import android.app.Application;
 

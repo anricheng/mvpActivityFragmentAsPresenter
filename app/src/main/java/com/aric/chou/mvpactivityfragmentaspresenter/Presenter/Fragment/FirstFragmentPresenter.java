@@ -1,17 +1,16 @@
 package com.aric.chou.mvpactivityfragmentaspresenter.Presenter.Fragment;
 
 import android.os.Bundle;
-import android.view.View;
 
 import com.aric.chou.mvpactivityfragmentaspresenter.R;
-import com.aric.chou.mvpactivityfragmentaspresenter.View.MainActivityViewDelegate;
+import com.aric.chou.mvpactivityfragmentaspresenter.View.FragmentViewDelegate;
 
 /**
  * com.aric.chou.mvpactivityfragmentaspresenter.Presenter.Fragment
  * Created by Aric on 下午5:03.
  */
 
-public class FirstFragmentPresenter extends FragmentPresenter <MainActivityViewDelegate>{
+public class FirstFragmentPresenter extends FragmentPresenter <FragmentViewDelegate>{
 
     private static final String OUTDATA="outdata";
 
@@ -24,17 +23,14 @@ public class FirstFragmentPresenter extends FragmentPresenter <MainActivityViewD
         return fragment;
     }
     @Override
-    protected Class<MainActivityViewDelegate> getDelegateClass() {
-        return MainActivityViewDelegate.class;
+    protected Class<FragmentViewDelegate> getDelegateClass() {
+        return FragmentViewDelegate.class;
     }
 
     @Override
     protected void initView() {
         super.initView();
-
         String outdata = getArguments().getString(OUTDATA);
-
         mViewDelegate.setTextById(R.id.tv_context,outdata);
-        mViewDelegate.get(R.id.bt_navigate).setVisibility(View.INVISIBLE);
     }
 }
