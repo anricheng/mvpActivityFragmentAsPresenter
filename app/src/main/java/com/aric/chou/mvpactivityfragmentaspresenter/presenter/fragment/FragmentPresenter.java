@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.aric.chou.mvpactivityfragmentaspresenter.Presenter.Fragment;
+package com.aric.chou.mvpactivityfragmentaspresenter.presenter.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

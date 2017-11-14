@@ -15,7 +15,7 @@
  */
 package com.aric.chou.mvpactivityfragmentaspresenter.databind;
 
-import com.aric.chou.mvpactivityfragmentaspresenter.Model.model.AbsModel;
+import com.aric.chou.mvpactivityfragmentaspresenter.model.AbsModel;
 import com.aric.chou.mvpactivityfragmentaspresenter.View.IViewDelegate;
 
 public interface DataBinder<T extends IViewDelegate, D extends AbsModel> {

@@ -1,8 +1,8 @@
-package com.aric.chou.mvpactivityfragmentaspresenter.Presenter.Activity;
+package com.aric.chou.mvpactivityfragmentaspresenter.presenter.activity;
 
 import android.support.v4.app.FragmentTransaction;
 
-import com.aric.chou.mvpactivityfragmentaspresenter.Presenter.Fragment.FirstFragmentPresenter;
+import com.aric.chou.mvpactivityfragmentaspresenter.presenter.fragment.FirstFragmentPresenter;
 import com.aric.chou.mvpactivityfragmentaspresenter.R;
 import com.aric.chou.mvpactivityfragmentaspresenter.View.ThirdActivityViewDelegate;
 

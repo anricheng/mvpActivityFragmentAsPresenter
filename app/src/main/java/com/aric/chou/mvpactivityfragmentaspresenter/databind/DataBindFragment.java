@@ -18,8 +18,8 @@ package com.aric.chou.mvpactivityfragmentaspresenter.databind;
 import android.os.Bundle;
 import android.view.View;
 
-import com.aric.chou.mvpactivityfragmentaspresenter.Model.model.AbsModel;
-import com.aric.chou.mvpactivityfragmentaspresenter.Presenter.Fragment.FragmentPresenter;
+import com.aric.chou.mvpactivityfragmentaspresenter.model.AbsModel;
+import com.aric.chou.mvpactivityfragmentaspresenter.presenter.fragment.FragmentPresenter;
 import com.aric.chou.mvpactivityfragmentaspresenter.View.IViewDelegate;
 
 public abstract class DataBindFragment<T extends IViewDelegate> extends

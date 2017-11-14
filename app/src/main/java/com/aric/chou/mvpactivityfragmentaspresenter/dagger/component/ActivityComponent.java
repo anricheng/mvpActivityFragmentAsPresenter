@@ -1,4 +1,4 @@
-package com.aric.chou.mvpactivityfragmentaspresenter.Model.component;
+package com.aric.chou.mvpactivityfragmentaspresenter.dagger.component;
 
 /**
  * com.aric.chou.mvpactivityfragmentaspresenter.Model.component

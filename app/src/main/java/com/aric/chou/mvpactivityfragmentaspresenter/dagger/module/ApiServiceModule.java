@@ -1,4 +1,4 @@
-package com.aric.chou.mvpactivityfragmentaspresenter.Model.module;
+package com.aric.chou.mvpactivityfragmentaspresenter.dagger.module;
 
 import android.app.Application;
 
@@ -12,8 +12,8 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 
 /**
- * com.aric.chou.mvpactivityfragmentaspresenter.Model.module
- * Created by Aric on 下午1:56.
+ * com.aric.chou.mvpactivityfragmentaspresenter.dagger.module
+ * Created by Aric on 下午6:00.
  */
 
 @Module

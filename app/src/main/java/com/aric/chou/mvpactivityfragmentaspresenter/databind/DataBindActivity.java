@@ -17,8 +17,8 @@ package com.aric.chou.mvpactivityfragmentaspresenter.databind;
 
 import android.os.Bundle;
 
-import com.aric.chou.mvpactivityfragmentaspresenter.Model.model.AbsModel;
-import com.aric.chou.mvpactivityfragmentaspresenter.Presenter.Activity.ActivityPresenter;
+import com.aric.chou.mvpactivityfragmentaspresenter.model.AbsModel;
+import com.aric.chou.mvpactivityfragmentaspresenter.presenter.activity.ActivityPresenter;
 import com.aric.chou.mvpactivityfragmentaspresenter.View.IViewDelegate;
 
 

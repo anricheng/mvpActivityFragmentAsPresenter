@@ -1,9 +1,4 @@
-package com.aric.chou.mvpactivityfragmentaspresenter.Model.module;
-
-/**
- * com.aric.chou.mvpactivityfragmentaspresenter.Model.module
- * Created by Aric on 上午11:59.
- */
+package com.aric.chou.mvpactivityfragmentaspresenter.dagger.module;
 
 import android.app.Application;
 
@@ -13,8 +8,10 @@ import dagger.Module;
 import dagger.Provides;
 
 /**
- * Created by aric on 2015/6/9.
+ * com.aric.chou.mvpactivityfragmentaspresenter.dagger.module
+ * Created by Aric on 下午6:00.
  */
+
 @Module
 public class AppModule {
 

@@ -1,4 +1,4 @@
-package com.aric.chou.mvpactivityfragmentaspresenter.Presenter.Fragment;
+package com.aric.chou.mvpactivityfragmentaspresenter.presenter.fragment;
 
 import android.os.Bundle;
 
